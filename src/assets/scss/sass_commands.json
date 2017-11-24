@@ -1,0 +1,8 @@
+{
+  "sass_commands":{
+    "home": "sass --watch home/style.scss:./../css/home/style.css --style compressed",
+    "single_view": "sass --watch single_view/style.scss:./../css/single_view/style.css --style compressed",
+    "Form": "sass --watch create/style.scss:./../css/create/style.css --style compressed",
+    "loader": "sass --watch loader/style.scss:./../css/loader/style.css --style compressed"
+  }
+}

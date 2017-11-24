@@ -1,0 +1,37 @@
+{
+  "api": {
+    "post_list" : {
+      "url": "https://jsonplaceholder.typicode.com/posts",
+      "methods": "GET"
+    },
+    "single_post" : {
+      "url": "https://jsonplaceholder.typicode.com/posts/[POST ID]",
+      "methods": "GET"
+    },
+    "get_comments" : {
+      "url": "https://jsonplaceholder.typicode.com/comments?postId=[POST ID]",
+      "methods": "GET"
+    },
+    "create_post" : {
+      "url": "https://jsonplaceholder.typicode.com/posts",
+      "methods": "POST"
+    },
+    "edit_post" : {
+      "url": "https://jsonplaceholder.typicode.com/posts/[POST ID]",
+      "methods": "POST"
+    },
+    "remove_post" : {
+      "url": "https://jsonplaceholder.typicode.com/posts/[POST ID]",
+      "methods": "DELETE"
+    },
+    "comment" : {
+      "url": "https://jsonplaceholder.typicode.com/comments?postId=[POST ID]",
+      "methods": "POST"
+    },
+    "search_post" : {
+      "url": "https://jsonplaceholder.typicode.com/posts?title_like=[Key word]",
+      "methods": "POST"
+    }
+  }
+}
+

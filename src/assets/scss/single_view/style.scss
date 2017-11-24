@@ -1,0 +1,126 @@
+$theme_color: #9721ff;
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #e9ebee;
+  font-family: 'Raleway', sans-serif;
+}
+.margin-10{
+  width: auto;
+  height: 10px;
+  display: table;
+}
+.top_bar_wrapper{
+  width: 100%;
+  height: auto;
+  display: table;
+  background-color: #fff;
+  border-bottom: 1px solid #dfdfdf;
+  .top_bar{
+    width: 800px;
+    height: 60px;
+    margin: auto;
+    .location_view{
+      float: left;
+      display: table;
+      color: #222;
+      font-size: 13px;
+      line-height: 60px;
+      a{
+        color: $theme_color;
+        text-decoration: none;
+      }
+    }
+    .create_trigger{
+      float: right;
+      display: table;
+      height: 36px;
+      padding: 0 25px;
+      line-height: 36px;
+      margin-top: 11px;
+      border-radius: 4px;
+      cursor: pointer;
+      color: #fff;
+      background-color: $theme_color;
+      outline: 0;
+      text-decoration: none;
+
+    }
+  }
+}
+.post_wrapper{
+  width: 100%;
+  height: auto;
+  display: table;
+  .post_inner{
+    width: 800px;
+    height: auto;
+    display: table;
+    margin: auto;
+    background-color: #fff;
+    padding: 50px 20px;
+    position: relative;
+    &.ts{
+      background-color: transparent;
+      margin-top: 100px;
+    }
+    .post_title{
+      font-size: 30px;
+      font-weight: 600;
+      color: #4d4d4d;
+    }
+    .post_content{
+      font-size: 15px;
+      font-weight: 400;
+    }
+    .comments_wrapper{
+      width: 760px;
+      float: right;
+      height: auto;
+      display: inline-block;
+      position: relative;
+      max-width: 760px;
+      padding-left: 20px;
+      .comments_inner{
+        .each_comment{
+          margin-top: 20px;
+          .username{
+            font-size: 14px;
+            font-weight: 600;
+            color: #393939;
+          }
+          .comment_body{
+            font-size: 12px;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+    hr{
+      color: rgba(173, 173, 173, 0.44);
+      opacity: 0.5;
+    }
+    .commentor_wrapper{
+      //padding: 20px;
+      display: inline-table;
+      float: left;
+      margin-top: 30px;
+      width: 100%;
+      margin-left: 30px;
+      .comment_input{
+        width: 100%;
+        height: auto;
+        display: table;
+        .comment_editor{
+          width: 100%;
+          max-width: 720px;
+          height: 40px;
+          border: 1px solid #dfdfdf;
+          padding: 5px 15px;
+          font-size: 20px;
+          line-height: 35px;
+        }
+      }
+    }
+  }
+}
